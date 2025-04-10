@@ -1,0 +1,33 @@
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .filter-bar select,
+  .filter-bar input[type='date'] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-bar button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .filter-bar .reset-btn {
+    background-color: #ff5252;
+  }
+  
+  .filter-bar button:hover {
+    opacity: 0.9;
+  }
+  
