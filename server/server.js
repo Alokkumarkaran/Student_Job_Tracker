@@ -8,8 +8,17 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+
+// ✅ Enable CORS with specific origin (your frontend)
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+}));
+
 app.use(express.json());
+
+// ✅ Route prefix
 app.use('/api/jobs', jobRoutes);
 
 const PORT = process.env.PORT || 5000;
