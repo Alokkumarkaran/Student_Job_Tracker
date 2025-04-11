@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'https://student-job-tracker-0u2i.onrender.com/'
+    baseURL: process.env.REACT_APP_API_BASE_URL + '/api/jobs',
   });  
 
 export default API;
