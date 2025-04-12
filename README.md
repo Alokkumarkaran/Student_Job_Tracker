@@ -5,6 +5,8 @@ A full-stack job application tracker that helps users add, view, update, delete,
 🔗 Frontend: https://student-job-tracker-alok-kumars-projects-66159410.vercel.app
 
 🔗 Backend: https://student-job-tracker-0u2i.onrender.com
+![Screenshot 2025-04-12 125035](https://github.com/user-attachments/assets/0ede5707-1abe-4efa-aa82-5760357bcde0)
+
 
 📌 Features
 Add a new job application
